@@ -20,3 +20,7 @@ prérequis pour utiliser ce script:
 	exemple:
 	<script type="text/javascript" src="scripts/jquery-1.7.2.min.js"></script>
 	<script type="text/javascript" src="scripts/gaAddons.js"></script>
+
+À propos de l'auteur:
+L'auteur originel de ce script est Stéphane Hamel (http://gaAddons.com);
+
