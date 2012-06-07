@@ -20,7 +20,7 @@ var crossDomains = '(mysite.com|myothersite.com)'; // regex matching the list of
 var baseDomain = location.hostname.match(RegExp(crossDomains + '$'));
 baseDomain = (baseDomain ? baseDomain[1].replace(/\:\d+/, '') : location.hostname);
 var _gaq = _gaq || [];
-_gaq.push(['_setAccount', 'UA-31877048-1']); // set your UA account!
+_gaq.push(['_setAccount', 'UA-99999999-9']); // set your UA account!
 _gaq.push(['_setDomainName', baseDomain]);
 _gaq.push(['_setAllowLinker', true]);
 _gaq.push(['_trackPageview']);

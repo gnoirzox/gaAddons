@@ -1,0 +1,22 @@
+README gaAddons.js
+
+prérequis pour utiliser ce script:
+
+1 - utiliser jQuery sur les pages utilisant gaAddons.js
+	> télécharger jQuery ( http://docs.jquery.com/Downloading_jQuery );
+	> utiliser au minimum la version 1.7 de jQuery;
+	> de préférence, héberger jquery.min.js sur le même serveur que le site analysé (permet une execution plus rapide des pages);
+
+2 - Renseigner ses paramètres dans le script gaAddons.js
+	> Ligne 18: renseigner les domaines et sous-domaines associés au site web analysé:
+		exemple:
+		var crossDomains= '(inextcom.fr|blog.inextcom.fr)'
+	> Ligne 22: renseigner son numéro de compte Google Analytics;
+	> Ligne 36: (optionel) renseigner le tracker correspondant au site web analysé:
+		exemple:
+		var t = _gat.getTrackerByName('inextcom');
+
+3 - Appliquer les deux scripts (jquery & gaAddons.js) sur chaque pages à analyser (mettre entre les balises <head> & </head>):
+	exemple:
+	<script type="text/javascript" src="scripts/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="scripts/gaAddons.js"></script>
